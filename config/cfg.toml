@@ -1,0 +1,35 @@
+[Node]
+name = "node1"
+
+[[Socket]]
+port = 40001
+genre = "tcp"
+ssl = false
+
+[[Socket]]
+port = 40005
+genre = "ws"
+ssl = false
+
+[Http]
+port = 40002
+ssl = false
+
+[Ssl]
+CertFile = "config/server.crt"
+KeyFile = "config/server.key"
+
+[Consul]
+addr = "127.0.0.1:8500"
+
+[Service]
+name = "testS"
+
+[Consumer]
+addr = "localhost:4161"
+channel = "player"
+
+
+[Log]
+path = "logs/gateway.log"
+level = "debug"
