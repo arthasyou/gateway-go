@@ -1,7 +1,7 @@
 package http
 
 import (
-	"github.com/luobin998877/go_net/http"
+	"github.com/arthasyou/net-go/http"
 	"github.com/spf13/viper"
 )
 

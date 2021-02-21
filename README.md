@@ -1,2 +1,2 @@
-# go_gateway
+# gateway-go
 

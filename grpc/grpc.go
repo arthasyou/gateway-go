@@ -1,7 +1,7 @@
 package grpc
 
 import (
-	"github.com/luobin998877/go_net/grpc"
+	"github.com/arthasyou/net-go/grpc"
 	"github.com/spf13/viper"
 )
 

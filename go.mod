@@ -1,9 +1,9 @@
-module github.com/luobin998877/go_gateway
+module github.com/arthasyou/gateway-go
 
 go 1.15
 
 require (
-	github.com/luobin998877/go_net v0.0.11
-	github.com/luobin998877/go_utility v0.0.5
+	github.com/arthasyou/net-go v0.0.0-20210221192607-c8bc65daf4c2
+	github.com/arthasyou/utility-go v0.0.0-20210221185548-67f83b6c39e3
 	github.com/spf13/viper v1.7.1
 )

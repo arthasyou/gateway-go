@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/luobin998877/go_net/packet"
-	"github.com/luobin998877/go_net/socket"
+	"github.com/arthasyou/net-go/packet"
+	"github.com/arthasyou/net-go/socket"
 	"github.com/spf13/viper"
 )
 

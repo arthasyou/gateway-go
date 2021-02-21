@@ -1,7 +1,7 @@
 package nsq
 
 import (
-	"github.com/luobin998877/go_utility/nsq"
+	"github.com/arthasyou/utility-go/nsq"
 	"github.com/spf13/viper"
 )
 

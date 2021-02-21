@@ -6,11 +6,11 @@ import (
 	"os/signal"
 	"syscall"
 
-	grpc "github.com/luobin998877/go_gateway/gRPC"
-	"github.com/luobin998877/go_gateway/http"
-	"github.com/luobin998877/go_gateway/nsq"
-	"github.com/luobin998877/go_gateway/socket"
-	"github.com/luobin998877/go_utility/logger"
+	grpc "github.com/arthasyou/gateway-go/gRPC"
+	"github.com/arthasyou/gateway-go/http"
+	"github.com/arthasyou/gateway-go/nsq"
+	"github.com/arthasyou/gateway-go/socket"
+	"github.com/arthasyou/utility-go/logger"
 	"github.com/spf13/viper"
 )
 
