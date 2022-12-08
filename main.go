@@ -6,7 +6,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	grpc "github.com/arthasyou/gateway-go/gRPC"
+	grpc "github.com/arthasyou/gateway-go/grpc"
 	"github.com/arthasyou/gateway-go/http"
 	"github.com/arthasyou/gateway-go/nsq"
 	"github.com/arthasyou/gateway-go/socket"
